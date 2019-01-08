@@ -1,0 +1,30 @@
+#fin_quiz
+{
+	visibility: hidden;
+}
+#quiz
+{
+	margin-left: 10px;
+	background-color: rgb(249, 216, 173);
+	padding: 10px 20px 10px 20px;
+	width: 500px;
+	border-radius: 20px;
+	float: left;
+	height: 675px;
+}
+#button
+{
+	margin-top: 30px;
+	margin-left: 200px;
+}
+#after_submit
+{
+	visibility: hidden;
+	background-color: rgb(112, 243, 181);
+	padding: 10px 20px 10px 20px;
+	width: 500px;
+	border-radius: 20px;
+	margin-left: 10px;
+	float: left;
+	height: 370px;
+}

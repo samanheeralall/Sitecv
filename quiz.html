@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		
+	
+		
+			
+		
+		<title>Quiz</title>
+	</head>
+	<body>
+		<h1>Quiz</h1>
+
+		<form id="quiz" name="quiz">
+			<p>Quelle est la capitale de la Suisse?</p>
+			<input  id="question1" name="question1" type="text">
+		
+
+			<p>Où est-ce que l'on ne peut pas voir les aurores boréales ?</p>
+			<input  type="radio"  id="question2" name="question2" value="La France">La France<br />
+			<input  type="radio"  id="question2" name="question2" value="La Norvège">La Norvège<br />
+			<input  type="radio"  id="question2" name="question2" value="L'Antarctique">L'Antarctique<br />
+
+			<p>Quelles sont les 4 couleurs du drapeau de l'Ile Maurice?</p>
+			<input  type="radio"  id="question3" name="question3" value="Bleu/Blanc/Rouge/Vert">Bleu/Blanc/Rouge/Vert<br />
+			<input  type="radio"  id="question3" name="question3" value="Rouge/bleu/jaune/vert">Rouge/bleu/jaune/vert<br />
+			<input  type="radio"  id="question3" name="question3" value="vert/marron/bleu/jaune">vert/marron/bleu/jaune<br />
+
+			<p>Quel volcan se trouve à l'Ile de la Réunion?</p>
+			<input type="radio" id="question4" name="question4" value="L’Eyjafjöll">L’Eyjafjöll<br />
+			<input type="radio" id="question4" name="question4" value="Le Mont Fuji">Le Mont Fuji<br />
+			<input type="radio" id="question4" name="question4" value="Le Piton de la Fournaise">Le Piton de la Fournaise<br />
+
+			<p>A propos des media queries, quelle est la proposition exate?</p>
+			<input type="radio" id="question5" name="question5" value="Permet de faire de la mise en page d'un site web">Permet de faire de la mise en page d'un site web<br />
+			<input type="radio" id="question5" name="question5" value="Permet d'insérer sur la page web des tableaux">Permet d'insérer sur la page web des tableaux<br />
+			<input type="radio" id="question5" name="question5" value="Permet de gérer le responsive design">Permet de gérer le responsive design<br />
+
+			<p>Quel est l'animal le moins rapide?</p>
+			<input type="radio" id="question6" name="question6" value="L'Autruche">L'Autruche<br />
+			<input type="radio" id="question6" name="question6" value="Le lion">Le lion<br />
+			<input type="radio" id="question6" name="question6" value="Le guépard">Le guépard<br />
+
+			
+			<input id="button" type="button" value="J'ai finis !" onclick="check();">
+	</form>
+
+	<div id="after_submit">
+		<p id="message"></p>
+		<p id="number_correct"></p>
+		<img id="picture">
+		
+	</div>
+
+	
+	<script type="text/javascript" src="main.js"></script>
+	</body>
